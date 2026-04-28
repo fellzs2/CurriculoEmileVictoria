@@ -1,0 +1,55 @@
+/* Fundo da página (papel de parede) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("fundo.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* Caixa principal */
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Foto centralizada */
+.foto {
+  width: 150px;
+  height: 200px; /* formato 3x4 */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Links */
+.links a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Títulos */
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+ul {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+}
