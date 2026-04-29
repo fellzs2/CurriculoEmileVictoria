@@ -27,14 +27,13 @@ body {
   margin-bottom: 15px;
 }
 
-/* Links */
-.links a {
+a {
   color: #00ffff;
   text-decoration: none;
   font-weight: bold;
 }
 
-.links a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -52,4 +51,25 @@ ul {
   width: fit-content;
   margin: 0 auto;
   text-align: left;
+}
+
+#lista {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#lista h3,h4 {
+  margin: 0;
+  padding: 0;
+}
+
+#lista ul {
+  list-style-position: inside;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.empresa {
+  margin: 25px;
 }
